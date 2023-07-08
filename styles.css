@@ -1,0 +1,20 @@
+* {
+  font-family: Helvetcia, "Times New Roman", sans-serif;
+}
+
+.title {
+  background-color: green;
+  color: rgb(255,0,0);
+  font-size: 80px;
+  text-align: center;
+}
+
+ul {
+  color: blue;
+  font-size: 24px;
+}
+
+img {
+  height: auto;
+  width: 400px;
+}
