@@ -3,10 +3,11 @@
 }
 
 #title {
+  display: flex;
   background-color: green;
   color: rgb(255,0,0);
   font-size: 75px;
-  text-align: center;
+  justify-content: center;
   border: 5px solid blue;
   max-width: 600px;
   margin: 0 auto;
@@ -14,11 +15,21 @@
 }
 
 #reg-list {
+  display:flex;
   color: blue;
   font-size: 20px;
   border: 5px solid blue;
-  max-width: 600px;
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  justify-content: space-between;
+}
+
+li {
+  flex: 1;
+  text-align: center;
+  background-color: green;
+  padding: 10px;
 }
 
 .recipe-list {
