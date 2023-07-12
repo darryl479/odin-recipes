@@ -5,13 +5,20 @@
 #title {
   background-color: green;
   color: rgb(255,0,0);
-  font-size: 80px;
+  font-size: 75px;
   text-align: center;
+  border: 5px solid blue;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 #reg-list {
   color: blue;
-  font-size: 24px;
+  font-size: 20px;
+  border: 5px solid blue;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .recipe-list {
@@ -23,6 +30,7 @@
 img {
   height: auto;
   width: 400px;
+  padding: 25px;
 }
 
 h1 {
@@ -44,4 +52,10 @@ h1 {
 #old {
   color: yellow;
   background-color: brown;
+}
+
+.odin {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
