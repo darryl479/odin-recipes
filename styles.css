@@ -25,6 +25,10 @@
   color: red;
   background-color: black;
   font-size: 18px;
+  border: 5px solid blue;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 img {
@@ -52,6 +56,11 @@ h1 {
 #old {
   color: yellow;
   background-color: brown;
+  border: 5px solid blue;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
 }
 
 .odin {
